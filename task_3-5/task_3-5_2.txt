@@ -1,0 +1,7 @@
+# Команды для задания 3.5
+mkdir -p projects_3/task_3_5
+mv Treponema_pallidum.fna.gz ./projects_3/task_3_5/
+
+# Результат выполнения
+переименовано './Treponema_pallidum.fna.gz' -> './projects_3/task_3_5/Treponema_pallidum.fna.gz'
+mkdir: создан каталог 'projects_3/task_3_5'

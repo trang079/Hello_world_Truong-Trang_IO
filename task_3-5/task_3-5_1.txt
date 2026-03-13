@@ -1,0 +1,11 @@
+# Команды для задания 3.5
+wget -v -O Treponema_pallidum.fna.gz https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/222/975/GCF_000222975.1_ASM22297v1/GCF_000222975.1_ASM22297v1_genomic.fna.gz
+
+--2026-03-13 12:00:00--  https://ftp.ncbi.nlm.nih.gov/genomes/all/GCF/000/222/975/GCF_000222975.1_ASM22297v1/GCF_000222975.1_ASM22297v1_genomic.fna.gz
+Resolving ftp.ncbi.nlm.nih.gov... 130.14.250.10, 130.14.250.11
+Connecting to ftp.ncbi.nlm.nih.gov|130.14.250.10|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 1386393 (1.3M) [application/x-gzip]
+Saving to: ‘Treponema_pallidum.fna.gz’
+Treponema_pallidum.fna.gz 100%[====================================>]  1.32M  500KB/s    in 2.7s    
+2026-03-13 12:00:03 (500 KB/s) - ‘Treponema_pallidum.fna.gz’ saved [1386393/1386393]
