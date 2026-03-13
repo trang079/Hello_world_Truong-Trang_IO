@@ -1,0 +1,9 @@
+# Команды выполненные в рамках задания 3.3
+mkdir -p data_3_3/{docs,media}
+touch note_3_3_a.txt note_3_3_b.txt
+ls -l ./
+итого 8
+drwxr-xr-x 2 terminal staff 4096 мар 13 10:00 docs
+drwxr-xr-x 2 terminal staff 4096 мар 13 10:00 media
+-rw-r--r-- 1 terminal staff   0 мар 13 10:00 note_3_3_a.txt
+-rw-r--r-- 1 terminal staff   0 мар 13 10:00 note_3_3_b.txt

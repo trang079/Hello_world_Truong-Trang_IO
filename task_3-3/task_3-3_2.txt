@@ -1,0 +1,10 @@
+# Команды для работы с файлами и каталогами (задание 3.3)
+mkdir -p ./backup_3_3
+cp note_3_3_a.txt ./backup_3_3/
+скопировано './note_3_3_a.txt' -> './backup_3_3/note_3_3_a.txt'
+
+mv note_3_3_b.txt ./backup_3_3/
+переименовано './note_3_3_b.txt' -> './backup_3_3/note_3_3_b.txt'
+
+rm -r ./backup_3_3/
+удалена директория 'backup_3_3/'
