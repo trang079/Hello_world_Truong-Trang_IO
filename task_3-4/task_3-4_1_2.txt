@@ -1,0 +1,18 @@
+ls -lah / --al1
+
+total 15
+drwxr-xr-x  16 terminal  staff  512 Mar 13 10:35 PM .
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM dev
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM etc
+drwxr-xr-x   3 terminal  staff   96 Mar 13 10:35 PM home
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM lib
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM media
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM mnt
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM opt
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM proc
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM root
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM run
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM sys
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM tmp
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM usr
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM var

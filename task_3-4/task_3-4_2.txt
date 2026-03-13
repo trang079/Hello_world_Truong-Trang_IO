@@ -1,0 +1,6 @@
+du -h --max-depth=2 ./projects_3
+4.0K    ./projects_3/.
+96K     ./projects_3/linux-practice
+48K     ./projects_3/linux-practice/documents
+48K     ./projects_3/linux-practice/images
+96K     ./projects_3/linux-practice

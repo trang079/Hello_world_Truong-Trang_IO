@@ -1,0 +1,14 @@
+dev
+etc
+home
+lib
+media
+mnt
+opt
+proc
+root
+run
+sys
+tmp
+usr
+var

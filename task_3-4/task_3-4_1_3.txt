@@ -1,0 +1,66 @@
+Terminal Temple
+
+Online UNIX terminal simulator (bash, shell, zsh - Linux, Mac, BSD)
+
+Copyright © 2023 Niklas Wenzel (Imprint | Privacy Policy)
+
+Start typing your commands into the command line / console.To print available commands, type "help" and press Enter. Learn how to use the terminal.
+
+terminal@terminal-temple ~ $ ls / > task_3-4_1_1.txt
+terminal@terminal-temple ~ $ cat task_3-4_1_1.txt
+dev             home            media           opt             root            sys             usr
+etc             lib             mnt             proc            run             tmp             var
+terminal@terminal-temple ~ $ ls -lah / --all > task_3-4_1_2.txt
+terminal@terminal-temple ~ $ echo "ls -lah / --all" > temp.txt && cat task_3-4_1_2.txt >> temp.txt && mv temp.txt task_3-4_1_2.txt
+ls -lah / --all > temp.txt && cat task_3-4_1_2.txt >> temp.txt && mv temp.txt task_3-4_1_2.txt
+terminal@terminal-temple ~ $ cat task_3-4_1_2.txt
+total 15
+drwxr-xr-x  16 terminal  staff  512 Mar 13 10:35 PM .
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM dev
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM etc
+drwxr-xr-x   3 terminal  staff   96 Mar 13 10:35 PM home
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM lib
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM media
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM mnt
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM opt
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM proc
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM root
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM run
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM sys
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM tmp
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM usr
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM var
+terminal@terminal-temple ~ $ mkdir -p projects_3/linux-practice/{documents/{past,future},images,backups}
+terminal@terminal-temple ~ $ ls -lah projects_3/
+total 3
+drwxr-xr-x  3 terminal  staff   96 Mar 13 10:39 PM .
+drwxr-xr-x  9 terminal  staff  288 Mar 13 10:35 PM ..
+drwxr-xr-x  3 terminal  staff   96 Mar 13 10:39 PM linux-practice
+terminal@terminal-temple ~ $ du -h --max-depth=2 ./projects_3 > task_3-4_2.txt
+terminal@terminal-temple ~ $ ls /
+dev             home            media           opt             root            sys             usr
+etc             lib             mnt             proc            run             tmp             var
+terminal@terminal-temple ~ $ ls / > task_3-4_1_1.txt
+terminal@terminal-temple ~ $ ls -lah / --all
+total 15
+drwxr-xr-x  16 terminal  staff  512 Mar 13 10:35 PM .
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM dev
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM etc
+drwxr-xr-x   3 terminal  staff   96 Mar 13 10:35 PM home
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM lib
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM media
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM mnt
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM opt
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM proc
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM root
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM run
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM sys
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM tmp
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM usr
+drwxr-xr-x   2 terminal  staff   64 Mar 13 10:35 PM var
+terminal@terminal-temple ~ $ 
+terminal@terminal-temple ~ $ du -h --max-depth=2 ./projects_3
+Unsupported command: du
+terminal@terminal-temple ~ $ 
+terminal@terminal-temple ~ $ ​ 
+InputInput
