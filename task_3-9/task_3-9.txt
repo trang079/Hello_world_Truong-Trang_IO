@@ -1,0 +1,17 @@
+#!/bin/bash
+
+FILE="names.txt"
+
+# Проверяем, существует ли файл
+if [ ! -f "$FILE" ]; then
+    echo "Ошибка: файл $FILE не найден."
+    exit 1
+fi
+
+# Цикл while для чтения файла построчно
+echo "Начинаю чтение имен из файла:"
+while read -r LINE; do
+    echo "Привет, $LINE!"
+done < "$FILE"
+
+echo "Чтение завершено."
