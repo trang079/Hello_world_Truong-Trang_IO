@@ -1,0 +1,8 @@
+#!/bin/bash
+
+# Заменяем старый путь на новый в файле settings.php
+# Используем | в качестве разделителя для удобства чтения
+sed -i 's|/var/lib/mysql/data|/mnt/ssd/mysql|g' settings.php
+
+# Выводим сообщение о завершении
+echo "Путь в settings.php успешно изменен."
