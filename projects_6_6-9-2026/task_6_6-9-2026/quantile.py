@@ -1,10 +1,18 @@
 import pandas as pd
+
 try:
-    url = "https://githubusercontent.com"
-    df = pd.read_csv(url)
+    # 1. Прямое чтение локального файла согласно методичке
+    df = pd.read_csv('wild_boars.csv')
+    
+    # 2. Расчет первого квартиля (Q1) для столбца массы
     q1_weight = df['weight_kg'].quantile(0.25)
+    
+    # 3. Вывод итогового результата на экран
     print(f"Первый квартиль (Q1) по массе составляет: {q1_weight:.1f} кг")
+
 except Exception as e:
+    # Вывод подробной ошибки в случае сбоя для удобства отладки
     print(f"Произошла ошибка: {e}")
+
 
 
